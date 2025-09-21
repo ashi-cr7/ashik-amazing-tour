@@ -1,0 +1,378 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>home</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="{% static 'sam/css/bootstrap.min.css'%}">
+      <!-- style css -->
+      <link rel="stylesheet" href="{% static 'sam/css/style.css'%}">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="{% static 'sam/css/responsive.css'%}">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="{% static 'sam/css/jquery.mCustomScrollbar.min.css'%}">
+      <!-- Tweaks for older IEs-->
+      <!-- owl stylesheets --> 
+      <link rel="stylesheet" href="{% static 'sam/css/owl.carousel.min.css'%}">
+      <link rel="stylesheet" href="{% static 'sam/css/owl.theme.default.min.css'%}">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="{% static 'sam/images/loading.gif'%}" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="header_white_section">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="header_information">
+                           <ul>
+                              <li><img src="{% static 'sam/images/1.png'%}" alt="#"/> 145.street road new York</li>
+                              <li><img src="{% static 'sam/images/2.png'%}" alt="#"/> +71  5678954378</li>
+                              <li><img src="{% static 'sam/images/3.png'%}" alt="#"/> Demo@hmail.com</li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo"> <a href="index.html"><img src="{% static 'sam/images/logo.png'%}" alt="#"></a> </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <div class="menu-area">
+                        <div class="limit-box">
+                           <nav class="main-menu">
+                              <ul class="menu-area-main">
+                                 <li class="active"> <a href="{% url 'home'%}">Home</a> </li>
+                                 <li><a href="{% url 'tour_package'%}">PACKAGES</a></li>
+                                 <li><a href="{% url 'register'%}">register as user</a></li>
+                                 <li><a href="{% url 'vendor_register'%}">register as vendor</a></li>
+                                 <li><a href="{% url 'contact'%}">Contact Us</a></li>
+                              </ul>
+                           </nav>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end header inner -->
+      </header>
+      <!-- end header -->
+      <section >
+         <div class="banner-main">
+            <img src="{% static 'sam/images/banner.jpg'%}" alt="#"/>
+            <div class="container">
+               <div class="text-bg">
+                  <h1>Ashik<br><strong class="white">Amazing Tour</strong></h1>
+                  
+      </section>
+      <!-- about -->
+      <div id="about" class="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 ">
+                  <div class="titlepage">
+                     <h2>About  our travel agency</h2>
+                     <span> At ASHIK AMAZING TOUR, we believe that travel has the power to transform and inspire. With years of experience in the industry, our team of experts is dedicated to crafting personalized travel experiences that exceed your expectations
+                        </span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="bg">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                     <div class="about-box">
+                        <p><span> Our Mission: To provide exceptional travel services that create lifelong memories for our clients."Experience the world with us! Our travel agency specializes in curating unforgettable journeys to destinations around the globe. From relaxing getaways to thrilling adventures, we'll help you plan the perfect trip. Let us take care of the details, so you can focus on making memories."</span></p>
+                        </div>
+                     </div>
+                  </div>
+      <!-- end about -->
+      <!-- traveling -->
+      <div id="travel" class="traveling">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 ">
+                  <div class="titlepage">
+                     <h2>Select Offers For Traveling</h2>
+                     <span><p><strong>Domestic Packages</strong></p>
+
+                        <p>-  <strong>Early Bird Discount</strong>: Book 30 days in advance and get 10% off on our Golden Triangle package.</p>
+                        <p>-  <strong>Honeymoon Special</strong>: Book our Kerala Backwaters package and get a complimentary romantic dinner cruise.</p>
+                        <p>-  <strong>Group Discount</strong>: Book our Himachal Adventure package for a group of 10 or more and get 15% off.</p>
+                        
+                        <p><strong>International Packages</strong></p>
+                        
+                        <p>-  <strong>Summer Sale</strong>: Book our Thai Getaway package and get 20% off on flights and accommodations.</p>
+                        <p>-  <strong>Free Upgrade</strong>: Book our European Escapade package and get a free upgrade to a luxury hotel.</p>
+                        <p>-  <strong>Last Minute Deal</strong>: Book our Dubai Delight package within 7 days of departure and get 25% off.</p>
+                        
+                        <p><strong>Special Offers</strong></p>
+                        
+                        <p>-  <strong>Refer a Friend</strong>: Refer a friend to our agency and get 10% off on your next booking.</p>
+                        <p>-  <strong>Loyalty Program</strong>: Book 3 packages with us and get 20% off on your 4th booking.</p>
+                        <p>-  <strong>Student Discount</strong>: Book any package with us and get 15% off if you're a student.</p></span> 
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><img src="{% static 'sam/icon/travel-icon.png'%}" alt="icon"/></i>
+                     <h3>Different Countrys</h3>
+                     <p>* Japan: Cherry blossom tour, exploring Tokyo, Kyoto, and Osaka.</p>
+                      <p>*Italy: Explore Rome, Florence, Venice, and the Amalfi Coast.</p>
+                        <p>* China: Discover Beijing, Shanghai, and Xi'an, with a visit to the Great Wall.</p>
+                        <p> *Brazil: Experience Rio de Janeiro, Iguazu Falls, and the Amazon rainforest.</p>
+                        <p> *South Africa: Go on a safari adventure, exploring Cape Town and the Garden Route. </p>
+                     
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><img src="{% static 'sam/icon/travel-icon2.png'%}" alt="icon"/></i>
+                     <h3>Mountains Tours</h3>
+                     <p>*Switzerland: Jungfraujoch, the "Top of Europe," and the Swiss Alps.</p>
+                        <p> *Nepal: Everest Base Camp and the Himalayas.</p>
+                        <p> *New Zealand: Southern Alps and Milford Sound.</p>
+                         <p>*USA: Rocky Mountains, Yellowstone, and Grand Teton National Parks.</p>
+                        <p>*Canada: Canadian Rockies, Banff, and Jasper National Parks. </p>
+                     
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><img src="{% static 'sam/icon/travel-icon3.png'%}" alt="icon"/></i>
+                     <h3>Bus Tours</h3>
+                     <p> * Europe: Explore multiple cities like Paris, Rome, and Barcelona.</p>
+                        <p> *USA: Cross-country road trip from New York to Los Angeles.</p>
+                        <p> *Australia: Sydney to Melbourne, exploring the southeastern coast.</p>
+                        <p> *South America: Rio de Janeiro to Lima, passing through Brazil, Uruguay, and Peru.</p>
+                        <p>* India: Golden Triangle tour, covering Delhi, Agra, and Jaipur.</p>
+                     
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><img src="{% static 'sam/icon/travel-icon4.png'%}" alt="icon"/></i>
+                     <h3>Summer Rest</h3>
+                     <p> * Greek Islands, Greece: Relax on the beautiful beaches of Santorini, Mykonos, and Crete.</p>
+                        <p>* Bali, Indonesia: Enjoy the tropical beaches, temples, and vibrant culture.</p>
+                        <p>* Costa del Sol, Spain: Soak up the sun on the Mediterranean coast.</p>
+                        <p>* Hawaii, USA: Experience the stunning natural beauty of the islands.</p>
+                        <p>* Maldives: Unwind in luxury resorts surrounded by crystal-clear waters and coral reefs.
+                         </p>
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end traveling -->
+      <!--London -->
+      <div class="London">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Weekend in New York, London</h2>
+                     <span><p> New York
+                        - Explore iconic landmarks: Statue of Liberty, Central Park, Times Square
+                        - Discover world-class museums: Met, MoMA, Guggenheim
+                        - Enjoy Broadway shows, diverse cuisine, and vibrant nightlife</p>
+                        
+                        <p>London
+                        - Visit historic sites: Buckingham Palace, Tower of London, Westminster Abbey
+                        - Experience cultural attractions: British Museum, National Gallery, Tate Modern
+                        - Enjoy West End theater, trendy neighborhoods, and classic pubs</p></span> 
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid">
+            <div class="London-img">
+               <figure><img src="{% static 'sam/images/London.jpg'%}" alt="img"/></figure>
+            </div>
+         </div>
+      </div>
+      <!-- end London -->
+      <!--Tours -->
+      <div class="Tours">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>The Best Tours</h2>
+                     <span><p>New York City Break: Explore iconic landmarks, Broadway shows, and diverse cuisine. (4 days)</p>
+
+                        <p>London Discovery: Visit Buckingham Palace, the Tower, and world-class museums. (5 days)</p>
+                        
+                        <p>Paris Romance: Experience the Eiffel Tower, art museums, and charming streets. (4 days)</p>
+                        
+                        <p>Tokyo Adventure: Discover vibrant culture, rich history, and cutting-edge tech. (6 days)</p>
+                        
+                        <p>Costa Rican Escape: Explore rainforests, exotic wildlife, and stunning beaches. (8 days)</p></span> 
+                  </div>
+               </div>
+            </div>
+            <section id="demos">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="owl-carousel owl-theme">
+                        <div class="item">
+                           <img class="img-responsive" src="{% static 'sam/images/1.jpg'%}" alt="#" />
+                           <h3>Holiday Tour</h3>
+                           <p>Beach Getaway: Relax on stunning beaches and explore tropical islands. (5-7 days)</p>
+
+                           <p>City Break: Explore iconic landmarks, culture, and entertainment in world-class cities. (4-6 days)</p>
+                              
+                           <p>Nature Escape: Discover breathtaking landscapes, wildlife, and outdoor adventures. (7-10 days)</p>
+                              
+                           <p>Cultural Heritage: Visit historic landmarks, experience local traditions, and explore vibrant cultures. (8-12 days)</p>
+                        </div>
+                        <div class="item">
+                           <img class="img-responsive" src="{% static 'sam/images/2.jpg'%}" alt="#" />
+                           <h3>New York</h3>
+                           <p>New York City Break
+
+                              Explore iconic landmarks: Statue of Liberty, Central Park, Times Square
+                              Discover world-class museums: Met, MoMA, Guggenheim
+                              Experience diverse cuisine, Broadway shows, and vibrant nightlife
+                              (4-5 days)</p>
+                        </div>
+                        <div class="item">
+                           <img class="img-responsive" src="{% static 'sam/images/3.jpg'%}" alt="#" />
+                           <h3>London</h3>
+                           <p>London City Break
+
+                              Discover iconic landmarks: Buckingham Palace, Tower of London, Big Ben
+                              Explore world-class museums: British Museum, National Gallery, Tate Modern
+                              Experience West End theater, trendy neighborhoods, and classic pubs
+                              (4-5 days)</p>
+                        </div>
+                        <div class="item">
+                           <img class="img-responsive" src="{% static 'sam/images/2.jpg'%}" alt="#" />
+                           <h3>Holiday Tour</h3>
+                           <p>Adventure Quest: Embark on thrilling activities like hiking, bungee jumping, and white-water rafting. (8-12 days)</p>
+
+                             <p> Food and Wine: Indulge in local cuisine, wine tastings, and cooking classes in culinary hotspots. (5-8 days)</p>
+                              
+                             <p> Road Trip: Explore scenic routes, charming towns, and national parks on a self-drive adventure. (7-14 days)</p>
+                              
+                             <p> Wellness Retreat: Relax and rejuvenate with yoga, spa treatments, and healthy cuisine in serene surroundings. (5-8 days)</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </div>
+      <!-- end Tours -->
+      <!-- Amazing -->
+      <div class="amazing">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="amazing-box">
+                     <h2>Amazing London Tour</h2>
+                     <span>"Explore London's iconic landmarks, cultural delights, and royal heritage on this 4-day, 3-night tour. Discover Buckingham Palace, the Tower of London, and world-class museums, with luxurious accommodations and unforgettable experiences."</span>
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      <footer>
+         <div id="contact" class="footer">
+            <div class="container">
+               <div class="row pdn-top-30">
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                     <ul class="location_icon">
+                        <li> <a href="#"><img src="{% static 'sam/icon/facebook.png'%}"></a></li>
+                        <li> <a href="#"><img src="{% static 'sam/icon/Twitter.png'%}"></a></li>
+                        <li> <a href="#"><img src="{% static 'sam/icon/linkedin.png'%}"></a></li>
+                        <li> <a href="#"><img src="{% static 'sam/icon/instagram.png'%}"></a></li>
+                     </ul>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                     <div class="Follow">
+                        <h3>CONTACT US</h3>
+                        <span>123 Second Street Fifth <br>Avenue,<br>
+                        Manhattan, New York<br>
+                        +987 654 3210</span>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="{% static 'sam/js/jquery.min.js'%}"></script>
+      <script src="{% static 'sam/js/popper.min.js'%}"></script>
+      <script src="{% static 'sam/js/bootstrap.bundle.min.js'%}"></script>
+      <script src="{% static 'sam/js/jquery-3.0.0.min.js'%}"></script>
+      <script src="{% static 'sam/js/plugin.js'%}"></script>
+      <!-- sidebar -->
+      <script src="{% static 'sam/js/jquery.mCustomScrollbar.concat.min.js'%}"></script>
+      <script src="{% static 'sam/js/custom.js'%}"></script>
+      <!-- javascript --> 
+      <script src="{% static 'sam/js/owl.carousel.js'%}"></script>
+      <script>
+         $(document).ready(function() {
+           var owl = $('.owl-carousel');
+           owl.owlCarousel({
+             margin: 10,
+             nav: true,
+             loop: true,
+             responsive: {
+               0: {
+                 items: 1
+               },
+               600: {
+                 items: 2
+               },
+               1000: {
+                 items: 3
+               }
+             }
+           })
+         })
+      </script>
+     
+   </body>
+</html>
